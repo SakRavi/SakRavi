@@ -77,28 +77,7 @@ Tecnologías que estoy aprendiendo, utilizando y relacionando dentro de mis proy
       alt="LinkedIn de Isaac Ramírez Vigil"
     >
   </a>
-
-  <img
-    src="https://img.shields.io/badge/Web%20personal-Próximamente-181717?style=for-the-badge&logo=googlechrome&logoColor=white"
-    alt="Web personal próximamente"
-  >
 </p>
-
-<p align="center">
-  Mi futura web personal reunirá una presentación más extensa de mis proyectos,
-  procesos de aprendizaje, experimentos técnicos y trabajo fotográfico.
-</p>
-
-<!--
-Cuando la web esté publicada, sustituir el badge anterior por:
-
-<a href="https://TU-DOMINIO">
-  <img
-    src="https://img.shields.io/badge/Web%20personal-Visitar-181717?style=for-the-badge&logo=googlechrome&logoColor=white"
-    alt="Web personal de Isaac Ramírez Vigil"
-  >
-</a>
--->
 
 ---
 
