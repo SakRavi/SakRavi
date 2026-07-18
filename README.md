@@ -1,5 +1,3 @@
-<h1 align="center">Hola, soy Isaac Ramírez Vigil 👋</h1>
-
 <p align="center">
   <strong>Python · IoT · Energía solar · CNC · Impresión 3D · Astrofotografía</strong>
 </p>
