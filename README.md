@@ -65,8 +65,6 @@ so my work focuses on resource efficiency, automation, and data tracking.
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=SakRavi&title_color=C41E3A&text_color=c9d1d9&bg_color=00000000&hide_border=true&layout=compact&langs_count=8" />
   <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=SakRavi&title_color=C41E3A&text_color=24292f&bg_color=00000000&hide_border=true&layout=compact&langs_count=8" />
-
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=SakRavi&title_color=C41E3A&text_color=c9d1d9&bg_color=00000000&hide_border=true&layout=compact&langs_count=8" height="180" alt="langs" />
   <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=SakRavi&title_color=C41E3A&text_color=c9d1d9&bg_color=00000000&hide_border=true&layout=compact&langs_count=8" height="100" alt="langs" />
 
 </picture>
