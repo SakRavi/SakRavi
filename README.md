@@ -72,6 +72,6 @@ so my work focuses on resource efficiency, automation, and data tracking.
 
 <!-- REPOS INFO-->
 
-<h3 align="center">Core Systems</h3>
+<h3 align="center"></h3>
 
 ---
