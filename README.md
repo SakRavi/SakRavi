@@ -4,7 +4,7 @@
 <!-- PRESENTACION-->
 
 <h3 align="center">
-I am a Python Developer, IoT Engineer, and passionate Maker.
+I am a Python Developer focused on IoT Systems, Automation and Backend Development.
 </h3>
 
 <h3 align="center">
