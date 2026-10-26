@@ -1,0 +1,374 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="48" viewBox="0 0 620 48" role="img" aria-labelledby="title desc" preserveAspectRatio="xMinYMid meet">
+  <title id="title">System loading — 30 animated demonstration logs</title>
+  <desc id="desc">Fictional startup sequence. Thirty logs appear one at a time, covering API, sensors, Python, configuration, database, network, MQTT, Modbus, automation and access checks. Four textual progress bars load from zero to one hundred percent, changing from red to green on completion. The last message is System running. The 60.4-second sequence repeats. Reduced motion shows only System running. This is an illustration, not live monitoring.</desc>
+  <!-- Transparent background; visible artwork consists exclusively of text. -->
+  <defs>
+    <style>
+      text { font-family: 'DejaVu Sans Mono', 'Liberation Mono', Consolas, monospace; font-size: 18px; font-weight: 500; }
+      .prefix { fill: #75dce8; }
+      .message { fill: #e8ddb5; }
+      .loading { fill: #ff6b6b; }
+      .success, .running { fill: #72e3a0; }
+      .log, .progress-frame { opacity: 0; }
+      .final { opacity: 1; }
+      @media (prefers-reduced-motion: no-preference) {
+      .log-01 { animation: log-01 60.4s step-end infinite; }
+      @keyframes log-01 { 0% { opacity: 1; } 2.64901%, 100% { opacity: 0; } }
+      .type-1 { animation: type-1 60.4s linear infinite; }
+      @keyframes type-1 { 0%, 0.00000% { width: 0px; animation-timing-function: steps(46, end); } 1.32450% { width: 501.81px; animation-timing-function: step-end; } 100% { width: 501.81px; } }
+      .log-02 { animation: log-02 60.4s step-end infinite; }
+      @keyframes log-02 { 0% { opacity: 0; } 2.64901% { opacity: 1; } 8.60927%, 100% { opacity: 0; } }
+      .progress-2-0 { animation: progress-2-0 60.4s step-end infinite; }
+      @keyframes progress-2-0 { 0% { opacity: 0; } 2.64901% { opacity: 1; } 3.09603%, 100% { opacity: 0; } }
+      .progress-2-1 { animation: progress-2-1 60.4s step-end infinite; }
+      @keyframes progress-2-1 { 0% { opacity: 0; } 3.09603% { opacity: 1; } 3.54305%, 100% { opacity: 0; } }
+      .progress-2-2 { animation: progress-2-2 60.4s step-end infinite; }
+      @keyframes progress-2-2 { 0% { opacity: 0; } 3.54305% { opacity: 1; } 3.99007%, 100% { opacity: 0; } }
+      .progress-2-3 { animation: progress-2-3 60.4s step-end infinite; }
+      @keyframes progress-2-3 { 0% { opacity: 0; } 3.99007% { opacity: 1; } 4.43709%, 100% { opacity: 0; } }
+      .progress-2-4 { animation: progress-2-4 60.4s step-end infinite; }
+      @keyframes progress-2-4 { 0% { opacity: 0; } 4.43709% { opacity: 1; } 4.88411%, 100% { opacity: 0; } }
+      .progress-2-5 { animation: progress-2-5 60.4s step-end infinite; }
+      @keyframes progress-2-5 { 0% { opacity: 0; } 4.88411% { opacity: 1; } 5.33113%, 100% { opacity: 0; } }
+      .progress-2-6 { animation: progress-2-6 60.4s step-end infinite; }
+      @keyframes progress-2-6 { 0% { opacity: 0; } 5.33113% { opacity: 1; } 5.77815%, 100% { opacity: 0; } }
+      .progress-2-7 { animation: progress-2-7 60.4s step-end infinite; }
+      @keyframes progress-2-7 { 0% { opacity: 0; } 5.77815% { opacity: 1; } 6.22517%, 100% { opacity: 0; } }
+      .progress-2-8 { animation: progress-2-8 60.4s step-end infinite; }
+      @keyframes progress-2-8 { 0% { opacity: 0; } 6.22517% { opacity: 1; } 6.67219%, 100% { opacity: 0; } }
+      .progress-2-9 { animation: progress-2-9 60.4s step-end infinite; }
+      @keyframes progress-2-9 { 0% { opacity: 0; } 6.67219% { opacity: 1; } 7.11921%, 100% { opacity: 0; } }
+      .progress-2-10 { animation: progress-2-10 60.4s step-end infinite; }
+      @keyframes progress-2-10 { 0% { opacity: 0; } 7.11921% { opacity: 1; } 8.60927%, 100% { opacity: 0; } }
+      .log-03 { animation: log-03 60.4s step-end infinite; }
+      @keyframes log-03 { 0% { opacity: 0; } 8.60927% { opacity: 1; } 11.25828%, 100% { opacity: 0; } }
+      .type-3 { animation: type-3 60.4s linear infinite; }
+      @keyframes type-3 { 0%, 8.60927% { width: 0px; animation-timing-function: steps(48, end); } 9.93377% { width: 523.50px; animation-timing-function: step-end; } 100% { width: 523.50px; } }
+      .log-04 { animation: log-04 60.4s step-end infinite; }
+      @keyframes log-04 { 0% { opacity: 0; } 11.25828% { opacity: 1; } 13.90728%, 100% { opacity: 0; } }
+      .type-4 { animation: type-4 60.4s linear infinite; }
+      @keyframes type-4 { 0%, 11.25828% { width: 0px; animation-timing-function: steps(41, end); } 12.58278% { width: 447.59px; animation-timing-function: step-end; } 100% { width: 447.59px; } }
+      .log-05 { animation: log-05 60.4s step-end infinite; }
+      @keyframes log-05 { 0% { opacity: 0; } 13.90728% { opacity: 1; } 19.86755%, 100% { opacity: 0; } }
+      .progress-5-0 { animation: progress-5-0 60.4s step-end infinite; }
+      @keyframes progress-5-0 { 0% { opacity: 0; } 13.90728% { opacity: 1; } 14.35430%, 100% { opacity: 0; } }
+      .progress-5-1 { animation: progress-5-1 60.4s step-end infinite; }
+      @keyframes progress-5-1 { 0% { opacity: 0; } 14.35430% { opacity: 1; } 14.80132%, 100% { opacity: 0; } }
+      .progress-5-2 { animation: progress-5-2 60.4s step-end infinite; }
+      @keyframes progress-5-2 { 0% { opacity: 0; } 14.80132% { opacity: 1; } 15.24834%, 100% { opacity: 0; } }
+      .progress-5-3 { animation: progress-5-3 60.4s step-end infinite; }
+      @keyframes progress-5-3 { 0% { opacity: 0; } 15.24834% { opacity: 1; } 15.69536%, 100% { opacity: 0; } }
+      .progress-5-4 { animation: progress-5-4 60.4s step-end infinite; }
+      @keyframes progress-5-4 { 0% { opacity: 0; } 15.69536% { opacity: 1; } 16.14238%, 100% { opacity: 0; } }
+      .progress-5-5 { animation: progress-5-5 60.4s step-end infinite; }
+      @keyframes progress-5-5 { 0% { opacity: 0; } 16.14238% { opacity: 1; } 16.58940%, 100% { opacity: 0; } }
+      .progress-5-6 { animation: progress-5-6 60.4s step-end infinite; }
+      @keyframes progress-5-6 { 0% { opacity: 0; } 16.58940% { opacity: 1; } 17.03642%, 100% { opacity: 0; } }
+      .progress-5-7 { animation: progress-5-7 60.4s step-end infinite; }
+      @keyframes progress-5-7 { 0% { opacity: 0; } 17.03642% { opacity: 1; } 17.48344%, 100% { opacity: 0; } }
+      .progress-5-8 { animation: progress-5-8 60.4s step-end infinite; }
+      @keyframes progress-5-8 { 0% { opacity: 0; } 17.48344% { opacity: 1; } 17.93046%, 100% { opacity: 0; } }
+      .progress-5-9 { animation: progress-5-9 60.4s step-end infinite; }
+      @keyframes progress-5-9 { 0% { opacity: 0; } 17.93046% { opacity: 1; } 18.37748%, 100% { opacity: 0; } }
+      .progress-5-10 { animation: progress-5-10 60.4s step-end infinite; }
+      @keyframes progress-5-10 { 0% { opacity: 0; } 18.37748% { opacity: 1; } 19.86755%, 100% { opacity: 0; } }
+      .log-06 { animation: log-06 60.4s step-end infinite; }
+      @keyframes log-06 { 0% { opacity: 0; } 19.86755% { opacity: 1; } 22.51656%, 100% { opacity: 0; } }
+      .type-6 { animation: type-6 60.4s linear infinite; }
+      @keyframes type-6 { 0%, 19.86755% { width: 0px; animation-timing-function: steps(42, end); } 21.19205% { width: 458.44px; animation-timing-function: step-end; } 100% { width: 458.44px; } }
+      .log-07 { animation: log-07 60.4s step-end infinite; }
+      @keyframes log-07 { 0% { opacity: 0; } 22.51656% { opacity: 1; } 25.16556%, 100% { opacity: 0; } }
+      .type-7 { animation: type-7 60.4s linear infinite; }
+      @keyframes type-7 { 0%, 22.51656% { width: 0px; animation-timing-function: steps(46, end); } 23.84106% { width: 501.81px; animation-timing-function: step-end; } 100% { width: 501.81px; } }
+      .log-08 { animation: log-08 60.4s step-end infinite; }
+      @keyframes log-08 { 0% { opacity: 0; } 25.16556% { opacity: 1; } 27.81457%, 100% { opacity: 0; } }
+      .type-8 { animation: type-8 60.4s linear infinite; }
+      @keyframes type-8 { 0%, 25.16556% { width: 0px; animation-timing-function: steps(48, end); } 26.49007% { width: 523.50px; animation-timing-function: step-end; } 100% { width: 523.50px; } }
+      .log-09 { animation: log-09 60.4s step-end infinite; }
+      @keyframes log-09 { 0% { opacity: 0; } 27.81457% { opacity: 1; } 30.46358%, 100% { opacity: 0; } }
+      .type-9 { animation: type-9 60.4s linear infinite; }
+      @keyframes type-9 { 0%, 27.81457% { width: 0px; animation-timing-function: steps(47, end); } 29.13907% { width: 512.66px; animation-timing-function: step-end; } 100% { width: 512.66px; } }
+      .log-10 { animation: log-10 60.4s step-end infinite; }
+      @keyframes log-10 { 0% { opacity: 0; } 30.46358% { opacity: 1; } 33.11258%, 100% { opacity: 0; } }
+      .type-10 { animation: type-10 60.4s linear infinite; }
+      @keyframes type-10 { 0%, 30.46358% { width: 0px; animation-timing-function: steps(47, end); } 31.78808% { width: 512.66px; animation-timing-function: step-end; } 100% { width: 512.66px; } }
+      .log-11 { animation: log-11 60.4s step-end infinite; }
+      @keyframes log-11 { 0% { opacity: 0; } 33.11258% { opacity: 1; } 35.76159%, 100% { opacity: 0; } }
+      .type-11 { animation: type-11 60.4s linear infinite; }
+      @keyframes type-11 { 0%, 33.11258% { width: 0px; animation-timing-function: steps(46, end); } 34.43709% { width: 501.81px; animation-timing-function: step-end; } 100% { width: 501.81px; } }
+      .log-12 { animation: log-12 60.4s step-end infinite; }
+      @keyframes log-12 { 0% { opacity: 0; } 35.76159% { opacity: 1; } 38.41060%, 100% { opacity: 0; } }
+      .type-12 { animation: type-12 60.4s linear infinite; }
+      @keyframes type-12 { 0%, 35.76159% { width: 0px; animation-timing-function: steps(51, end); } 37.08609% { width: 556.03px; animation-timing-function: step-end; } 100% { width: 556.03px; } }
+      .log-13 { animation: log-13 60.4s step-end infinite; }
+      @keyframes log-13 { 0% { opacity: 0; } 38.41060% { opacity: 1; } 41.05960%, 100% { opacity: 0; } }
+      .type-13 { animation: type-13 60.4s linear infinite; }
+      @keyframes type-13 { 0%, 38.41060% { width: 0px; animation-timing-function: steps(48, end); } 39.73510% { width: 523.50px; animation-timing-function: step-end; } 100% { width: 523.50px; } }
+      .log-14 { animation: log-14 60.4s step-end infinite; }
+      @keyframes log-14 { 0% { opacity: 0; } 41.05960% { opacity: 1; } 43.70861%, 100% { opacity: 0; } }
+      .type-14 { animation: type-14 60.4s linear infinite; }
+      @keyframes type-14 { 0%, 41.05960% { width: 0px; animation-timing-function: steps(53, end); } 42.38411% { width: 577.72px; animation-timing-function: step-end; } 100% { width: 577.72px; } }
+      .log-15 { animation: log-15 60.4s step-end infinite; }
+      @keyframes log-15 { 0% { opacity: 0; } 43.70861% { opacity: 1; } 46.35762%, 100% { opacity: 0; } }
+      .type-15 { animation: type-15 60.4s linear infinite; }
+      @keyframes type-15 { 0%, 43.70861% { width: 0px; animation-timing-function: steps(47, end); } 45.03311% { width: 512.66px; animation-timing-function: step-end; } 100% { width: 512.66px; } }
+      .log-16 { animation: log-16 60.4s step-end infinite; }
+      @keyframes log-16 { 0% { opacity: 0; } 46.35762% { opacity: 1; } 49.00662%, 100% { opacity: 0; } }
+      .type-16 { animation: type-16 60.4s linear infinite; }
+      @keyframes type-16 { 0%, 46.35762% { width: 0px; animation-timing-function: steps(48, end); } 47.68212% { width: 523.50px; animation-timing-function: step-end; } 100% { width: 523.50px; } }
+      .log-17 { animation: log-17 60.4s step-end infinite; }
+      @keyframes log-17 { 0% { opacity: 0; } 49.00662% { opacity: 1; } 51.65563%, 100% { opacity: 0; } }
+      .type-17 { animation: type-17 60.4s linear infinite; }
+      @keyframes type-17 { 0%, 49.00662% { width: 0px; animation-timing-function: steps(44, end); } 50.33113% { width: 480.12px; animation-timing-function: step-end; } 100% { width: 480.12px; } }
+      .log-18 { animation: log-18 60.4s step-end infinite; }
+      @keyframes log-18 { 0% { opacity: 0; } 51.65563% { opacity: 1; } 54.30464%, 100% { opacity: 0; } }
+      .type-18 { animation: type-18 60.4s linear infinite; }
+      @keyframes type-18 { 0%, 51.65563% { width: 0px; animation-timing-function: steps(49, end); } 52.98013% { width: 534.34px; animation-timing-function: step-end; } 100% { width: 534.34px; } }
+      .log-19 { animation: log-19 60.4s step-end infinite; }
+      @keyframes log-19 { 0% { opacity: 0; } 54.30464% { opacity: 1; } 56.95364%, 100% { opacity: 0; } }
+      .type-19 { animation: type-19 60.4s linear infinite; }
+      @keyframes type-19 { 0%, 54.30464% { width: 0px; animation-timing-function: steps(43, end); } 55.62914% { width: 469.28px; animation-timing-function: step-end; } 100% { width: 469.28px; } }
+      .log-20 { animation: log-20 60.4s step-end infinite; }
+      @keyframes log-20 { 0% { opacity: 0; } 56.95364% { opacity: 1; } 59.60265%, 100% { opacity: 0; } }
+      .type-20 { animation: type-20 60.4s linear infinite; }
+      @keyframes type-20 { 0%, 56.95364% { width: 0px; animation-timing-function: steps(50, end); } 58.27815% { width: 545.19px; animation-timing-function: step-end; } 100% { width: 545.19px; } }
+      .log-21 { animation: log-21 60.4s step-end infinite; }
+      @keyframes log-21 { 0% { opacity: 0; } 59.60265% { opacity: 1; } 65.56291%, 100% { opacity: 0; } }
+      .progress-21-0 { animation: progress-21-0 60.4s step-end infinite; }
+      @keyframes progress-21-0 { 0% { opacity: 0; } 59.60265% { opacity: 1; } 60.04967%, 100% { opacity: 0; } }
+      .progress-21-1 { animation: progress-21-1 60.4s step-end infinite; }
+      @keyframes progress-21-1 { 0% { opacity: 0; } 60.04967% { opacity: 1; } 60.49669%, 100% { opacity: 0; } }
+      .progress-21-2 { animation: progress-21-2 60.4s step-end infinite; }
+      @keyframes progress-21-2 { 0% { opacity: 0; } 60.49669% { opacity: 1; } 60.94371%, 100% { opacity: 0; } }
+      .progress-21-3 { animation: progress-21-3 60.4s step-end infinite; }
+      @keyframes progress-21-3 { 0% { opacity: 0; } 60.94371% { opacity: 1; } 61.39073%, 100% { opacity: 0; } }
+      .progress-21-4 { animation: progress-21-4 60.4s step-end infinite; }
+      @keyframes progress-21-4 { 0% { opacity: 0; } 61.39073% { opacity: 1; } 61.83775%, 100% { opacity: 0; } }
+      .progress-21-5 { animation: progress-21-5 60.4s step-end infinite; }
+      @keyframes progress-21-5 { 0% { opacity: 0; } 61.83775% { opacity: 1; } 62.28477%, 100% { opacity: 0; } }
+      .progress-21-6 { animation: progress-21-6 60.4s step-end infinite; }
+      @keyframes progress-21-6 { 0% { opacity: 0; } 62.28477% { opacity: 1; } 62.73179%, 100% { opacity: 0; } }
+      .progress-21-7 { animation: progress-21-7 60.4s step-end infinite; }
+      @keyframes progress-21-7 { 0% { opacity: 0; } 62.73179% { opacity: 1; } 63.17881%, 100% { opacity: 0; } }
+      .progress-21-8 { animation: progress-21-8 60.4s step-end infinite; }
+      @keyframes progress-21-8 { 0% { opacity: 0; } 63.17881% { opacity: 1; } 63.62583%, 100% { opacity: 0; } }
+      .progress-21-9 { animation: progress-21-9 60.4s step-end infinite; }
+      @keyframes progress-21-9 { 0% { opacity: 0; } 63.62583% { opacity: 1; } 64.07285%, 100% { opacity: 0; } }
+      .progress-21-10 { animation: progress-21-10 60.4s step-end infinite; }
+      @keyframes progress-21-10 { 0% { opacity: 0; } 64.07285% { opacity: 1; } 65.56291%, 100% { opacity: 0; } }
+      .log-22 { animation: log-22 60.4s step-end infinite; }
+      @keyframes log-22 { 0% { opacity: 0; } 65.56291% { opacity: 1; } 68.21192%, 100% { opacity: 0; } }
+      .type-22 { animation: type-22 60.4s linear infinite; }
+      @keyframes type-22 { 0%, 65.56291% { width: 0px; animation-timing-function: steps(45, end); } 66.88742% { width: 490.97px; animation-timing-function: step-end; } 100% { width: 490.97px; } }
+      .log-23 { animation: log-23 60.4s step-end infinite; }
+      @keyframes log-23 { 0% { opacity: 0; } 68.21192% { opacity: 1; } 70.86093%, 100% { opacity: 0; } }
+      .type-23 { animation: type-23 60.4s linear infinite; }
+      @keyframes type-23 { 0%, 68.21192% { width: 0px; animation-timing-function: steps(50, end); } 69.53642% { width: 545.19px; animation-timing-function: step-end; } 100% { width: 545.19px; } }
+      .log-24 { animation: log-24 60.4s step-end infinite; }
+      @keyframes log-24 { 0% { opacity: 0; } 70.86093% { opacity: 1; } 73.50993%, 100% { opacity: 0; } }
+      .type-24 { animation: type-24 60.4s linear infinite; }
+      @keyframes type-24 { 0%, 70.86093% { width: 0px; animation-timing-function: steps(44, end); } 72.18543% { width: 480.12px; animation-timing-function: step-end; } 100% { width: 480.12px; } }
+      .log-25 { animation: log-25 60.4s step-end infinite; }
+      @keyframes log-25 { 0% { opacity: 0; } 73.50993% { opacity: 1; } 76.15894%, 100% { opacity: 0; } }
+      .type-25 { animation: type-25 60.4s linear infinite; }
+      @keyframes type-25 { 0%, 73.50993% { width: 0px; animation-timing-function: steps(48, end); } 74.83444% { width: 523.50px; animation-timing-function: step-end; } 100% { width: 523.50px; } }
+      .log-26 { animation: log-26 60.4s step-end infinite; }
+      @keyframes log-26 { 0% { opacity: 0; } 76.15894% { opacity: 1; } 78.80795%, 100% { opacity: 0; } }
+      .type-26 { animation: type-26 60.4s linear infinite; }
+      @keyframes type-26 { 0%, 76.15894% { width: 0px; animation-timing-function: steps(39, end); } 77.48344% { width: 425.91px; animation-timing-function: step-end; } 100% { width: 425.91px; } }
+      .log-27 { animation: log-27 60.4s step-end infinite; }
+      @keyframes log-27 { 0% { opacity: 0; } 78.80795% { opacity: 1; } 81.45695%, 100% { opacity: 0; } }
+      .type-27 { animation: type-27 60.4s linear infinite; }
+      @keyframes type-27 { 0%, 78.80795% { width: 0px; animation-timing-function: steps(47, end); } 80.13245% { width: 512.66px; animation-timing-function: step-end; } 100% { width: 512.66px; } }
+      .log-28 { animation: log-28 60.4s step-end infinite; }
+      @keyframes log-28 { 0% { opacity: 0; } 81.45695% { opacity: 1; } 87.41722%, 100% { opacity: 0; } }
+      .progress-28-0 { animation: progress-28-0 60.4s step-end infinite; }
+      @keyframes progress-28-0 { 0% { opacity: 0; } 81.45695% { opacity: 1; } 81.90397%, 100% { opacity: 0; } }
+      .progress-28-1 { animation: progress-28-1 60.4s step-end infinite; }
+      @keyframes progress-28-1 { 0% { opacity: 0; } 81.90397% { opacity: 1; } 82.35099%, 100% { opacity: 0; } }
+      .progress-28-2 { animation: progress-28-2 60.4s step-end infinite; }
+      @keyframes progress-28-2 { 0% { opacity: 0; } 82.35099% { opacity: 1; } 82.79801%, 100% { opacity: 0; } }
+      .progress-28-3 { animation: progress-28-3 60.4s step-end infinite; }
+      @keyframes progress-28-3 { 0% { opacity: 0; } 82.79801% { opacity: 1; } 83.24503%, 100% { opacity: 0; } }
+      .progress-28-4 { animation: progress-28-4 60.4s step-end infinite; }
+      @keyframes progress-28-4 { 0% { opacity: 0; } 83.24503% { opacity: 1; } 83.69205%, 100% { opacity: 0; } }
+      .progress-28-5 { animation: progress-28-5 60.4s step-end infinite; }
+      @keyframes progress-28-5 { 0% { opacity: 0; } 83.69205% { opacity: 1; } 84.13907%, 100% { opacity: 0; } }
+      .progress-28-6 { animation: progress-28-6 60.4s step-end infinite; }
+      @keyframes progress-28-6 { 0% { opacity: 0; } 84.13907% { opacity: 1; } 84.58609%, 100% { opacity: 0; } }
+      .progress-28-7 { animation: progress-28-7 60.4s step-end infinite; }
+      @keyframes progress-28-7 { 0% { opacity: 0; } 84.58609% { opacity: 1; } 85.03311%, 100% { opacity: 0; } }
+      .progress-28-8 { animation: progress-28-8 60.4s step-end infinite; }
+      @keyframes progress-28-8 { 0% { opacity: 0; } 85.03311% { opacity: 1; } 85.48013%, 100% { opacity: 0; } }
+      .progress-28-9 { animation: progress-28-9 60.4s step-end infinite; }
+      @keyframes progress-28-9 { 0% { opacity: 0; } 85.48013% { opacity: 1; } 85.92715%, 100% { opacity: 0; } }
+      .progress-28-10 { animation: progress-28-10 60.4s step-end infinite; }
+      @keyframes progress-28-10 { 0% { opacity: 0; } 85.92715% { opacity: 1; } 87.41722%, 100% { opacity: 0; } }
+      .log-29 { animation: log-29 60.4s step-end infinite; }
+      @keyframes log-29 { 0% { opacity: 0; } 87.41722% { opacity: 1; } 90.06623%, 100% { opacity: 0; } }
+      .type-29 { animation: type-29 60.4s linear infinite; }
+      @keyframes type-29 { 0%, 87.41722% { width: 0px; animation-timing-function: steps(40, end); } 88.74172% { width: 436.75px; animation-timing-function: step-end; } 100% { width: 436.75px; } }
+      .log-30 { animation: log-30 60.4s step-end infinite; }
+      @keyframes log-30 { 0% { opacity: 0; } 90.06623% { opacity: 1; } 100% { opacity: 0; } }
+      .type-30 { animation: type-30 60.4s linear infinite; }
+      @keyframes type-30 { 0%, 90.06623% { width: 0px; animation-timing-function: steps(40, end); } 91.39073% { width: 436.75px; animation-timing-function: step-end; } 100% { width: 436.75px; } }
+      }
+    </style>
+    <clipPath id="clip-1"><rect class="type-1" x="7" y="4" width="604" height="40"/></clipPath>
+    <clipPath id="clip-3"><rect class="type-3" x="7" y="4" width="604" height="40"/></clipPath>
+    <clipPath id="clip-4"><rect class="type-4" x="7" y="4" width="604" height="40"/></clipPath>
+    <clipPath id="clip-6"><rect class="type-6" x="7" y="4" width="604" height="40"/></clipPath>
+    <clipPath id="clip-7"><rect class="type-7" x="7" y="4" width="604" height="40"/></clipPath>
+    <clipPath id="clip-8"><rect class="type-8" x="7" y="4" width="604" height="40"/></clipPath>
+    <clipPath id="clip-9"><rect class="type-9" x="7" y="4" width="604" height="40"/></clipPath>
+    <clipPath id="clip-10"><rect class="type-10" x="7" y="4" width="604" height="40"/></clipPath>
+    <clipPath id="clip-11"><rect class="type-11" x="7" y="4" width="604" height="40"/></clipPath>
+    <clipPath id="clip-12"><rect class="type-12" x="7" y="4" width="604" height="40"/></clipPath>
+    <clipPath id="clip-13"><rect class="type-13" x="7" y="4" width="604" height="40"/></clipPath>
+    <clipPath id="clip-14"><rect class="type-14" x="7" y="4" width="604" height="40"/></clipPath>
+    <clipPath id="clip-15"><rect class="type-15" x="7" y="4" width="604" height="40"/></clipPath>
+    <clipPath id="clip-16"><rect class="type-16" x="7" y="4" width="604" height="40"/></clipPath>
+    <clipPath id="clip-17"><rect class="type-17" x="7" y="4" width="604" height="40"/></clipPath>
+    <clipPath id="clip-18"><rect class="type-18" x="7" y="4" width="604" height="40"/></clipPath>
+    <clipPath id="clip-19"><rect class="type-19" x="7" y="4" width="604" height="40"/></clipPath>
+    <clipPath id="clip-20"><rect class="type-20" x="7" y="4" width="604" height="40"/></clipPath>
+    <clipPath id="clip-22"><rect class="type-22" x="7" y="4" width="604" height="40"/></clipPath>
+    <clipPath id="clip-23"><rect class="type-23" x="7" y="4" width="604" height="40"/></clipPath>
+    <clipPath id="clip-24"><rect class="type-24" x="7" y="4" width="604" height="40"/></clipPath>
+    <clipPath id="clip-25"><rect class="type-25" x="7" y="4" width="604" height="40"/></clipPath>
+    <clipPath id="clip-26"><rect class="type-26" x="7" y="4" width="604" height="40"/></clipPath>
+    <clipPath id="clip-27"><rect class="type-27" x="7" y="4" width="604" height="40"/></clipPath>
+    <clipPath id="clip-29"><rect class="type-29" x="7" y="4" width="604" height="40"/></clipPath>
+    <clipPath id="clip-30"><rect class="type-30" x="7" y="4" width="604" height="40"/></clipPath>
+  </defs>
+  <g class="log log-01" aria-hidden="true">
+    <text x="8" y="31" clip-path="url(#clip-1)" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | API | </tspan><tspan class="message">System loading check...</tspan></text>
+  </g>
+  <g class="log log-02" aria-hidden="true">
+    <text class="progress-frame progress-2-0" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | API | </tspan><tspan class="loading">Loading [----------]   0%</tspan></text>
+    <text class="progress-frame progress-2-1" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | API | </tspan><tspan class="loading">Loading [=---------]  10%</tspan></text>
+    <text class="progress-frame progress-2-2" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | API | </tspan><tspan class="loading">Loading [==--------]  20%</tspan></text>
+    <text class="progress-frame progress-2-3" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | API | </tspan><tspan class="loading">Loading [===-------]  30%</tspan></text>
+    <text class="progress-frame progress-2-4" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | API | </tspan><tspan class="loading">Loading [====------]  40%</tspan></text>
+    <text class="progress-frame progress-2-5" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | API | </tspan><tspan class="loading">Loading [=====-----]  50%</tspan></text>
+    <text class="progress-frame progress-2-6" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | API | </tspan><tspan class="loading">Loading [======----]  60%</tspan></text>
+    <text class="progress-frame progress-2-7" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | API | </tspan><tspan class="loading">Loading [=======---]  70%</tspan></text>
+    <text class="progress-frame progress-2-8" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | API | </tspan><tspan class="loading">Loading [========--]  80%</tspan></text>
+    <text class="progress-frame progress-2-9" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | API | </tspan><tspan class="loading">Loading [=========-]  90%</tspan></text>
+    <text class="progress-frame progress-2-10" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | API | </tspan><tspan class="success">Loading [==========] 100%</tspan></text>
+  </g>
+  <g class="log log-03" aria-hidden="true">
+    <text x="8" y="31" clip-path="url(#clip-3)" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | API | </tspan><tspan class="message">System loading successful</tspan></text>
+  </g>
+  <g class="log log-04" aria-hidden="true">
+    <text x="8" y="31" clip-path="url(#clip-4)" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | IOT | </tspan><tspan class="message">Loading sensors...</tspan></text>
+  </g>
+  <g class="log log-05" aria-hidden="true">
+    <text class="progress-frame progress-5-0" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | IOT | </tspan><tspan class="loading">Loading [----------]   0%</tspan></text>
+    <text class="progress-frame progress-5-1" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | IOT | </tspan><tspan class="loading">Loading [=---------]  10%</tspan></text>
+    <text class="progress-frame progress-5-2" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | IOT | </tspan><tspan class="loading">Loading [==--------]  20%</tspan></text>
+    <text class="progress-frame progress-5-3" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | IOT | </tspan><tspan class="loading">Loading [===-------]  30%</tspan></text>
+    <text class="progress-frame progress-5-4" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | IOT | </tspan><tspan class="loading">Loading [====------]  40%</tspan></text>
+    <text class="progress-frame progress-5-5" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | IOT | </tspan><tspan class="loading">Loading [=====-----]  50%</tspan></text>
+    <text class="progress-frame progress-5-6" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | IOT | </tspan><tspan class="loading">Loading [======----]  60%</tspan></text>
+    <text class="progress-frame progress-5-7" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | IOT | </tspan><tspan class="loading">Loading [=======---]  70%</tspan></text>
+    <text class="progress-frame progress-5-8" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | IOT | </tspan><tspan class="loading">Loading [========--]  80%</tspan></text>
+    <text class="progress-frame progress-5-9" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | IOT | </tspan><tspan class="loading">Loading [=========-]  90%</tspan></text>
+    <text class="progress-frame progress-5-10" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | IOT | </tspan><tspan class="success">Loading [==========] 100%</tspan></text>
+  </g>
+  <g class="log log-06" aria-hidden="true">
+    <text x="8" y="31" clip-path="url(#clip-6)" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | IOT | </tspan><tspan class="message">Sensors initialized</tspan></text>
+  </g>
+  <g class="log log-07" aria-hidden="true">
+    <text x="8" y="31" clip-path="url(#clip-7)" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | PY  | </tspan><tspan class="message">System modules check...</tspan></text>
+  </g>
+  <g class="log log-08" aria-hidden="true">
+    <text x="8" y="31" clip-path="url(#clip-8)" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | PY  | </tspan><tspan class="message">System libraries check...</tspan></text>
+  </g>
+  <g class="log log-09" aria-hidden="true">
+    <text x="8" y="31" clip-path="url(#clip-9)" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | PY  | </tspan><tspan class="message">Python environment ready</tspan></text>
+  </g>
+  <g class="log log-10" aria-hidden="true">
+    <text x="8" y="31" clip-path="url(#clip-10)" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | CFG | </tspan><tspan class="message">Reading configuration...</tspan></text>
+  </g>
+  <g class="log log-11" aria-hidden="true">
+    <text x="8" y="31" clip-path="url(#clip-11)" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | CFG | </tspan><tspan class="message">Configuration validated</tspan></text>
+  </g>
+  <g class="log log-12" aria-hidden="true">
+    <text x="8" y="31" clip-path="url(#clip-12)" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | DB  | </tspan><tspan class="message">Database connection check...</tspan></text>
+  </g>
+  <g class="log log-13" aria-hidden="true">
+    <text x="8" y="31" clip-path="url(#clip-13)" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | DB  | </tspan><tspan class="message">Database connection ready</tspan></text>
+  </g>
+  <g class="log log-14" aria-hidden="true">
+    <text x="8" y="31" clip-path="url(#clip-14)" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | NET | </tspan><tspan class="message">Checking network interfaces...</tspan></text>
+  </g>
+  <g class="log log-15" aria-hidden="true">
+    <text x="8" y="31" clip-path="url(#clip-15)" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | NET | </tspan><tspan class="message">Network interfaces ready</tspan></text>
+  </g>
+  <g class="log log-16" aria-hidden="true">
+    <text x="8" y="31" clip-path="url(#clip-16)" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | MQT | </tspan><tspan class="message">Connecting MQTT broker...</tspan></text>
+  </g>
+  <g class="log log-17" aria-hidden="true">
+    <text x="8" y="31" clip-path="url(#clip-17)" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | MQT | </tspan><tspan class="message">MQTT connection ready</tspan></text>
+  </g>
+  <g class="log log-18" aria-hidden="true">
+    <text x="8" y="31" clip-path="url(#clip-18)" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | MOD | </tspan><tspan class="message">Checking Modbus devices...</tspan></text>
+  </g>
+  <g class="log log-19" aria-hidden="true">
+    <text x="8" y="31" clip-path="url(#clip-19)" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | MOD | </tspan><tspan class="message">Modbus devices ready</tspan></text>
+  </g>
+  <g class="log log-20" aria-hidden="true">
+    <text x="8" y="31" clip-path="url(#clip-20)" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | AUT | </tspan><tspan class="message">Loading automation rules...</tspan></text>
+  </g>
+  <g class="log log-21" aria-hidden="true">
+    <text class="progress-frame progress-21-0" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | AUT | </tspan><tspan class="loading">Loading [----------]   0%</tspan></text>
+    <text class="progress-frame progress-21-1" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | AUT | </tspan><tspan class="loading">Loading [=---------]  10%</tspan></text>
+    <text class="progress-frame progress-21-2" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | AUT | </tspan><tspan class="loading">Loading [==--------]  20%</tspan></text>
+    <text class="progress-frame progress-21-3" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | AUT | </tspan><tspan class="loading">Loading [===-------]  30%</tspan></text>
+    <text class="progress-frame progress-21-4" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | AUT | </tspan><tspan class="loading">Loading [====------]  40%</tspan></text>
+    <text class="progress-frame progress-21-5" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | AUT | </tspan><tspan class="loading">Loading [=====-----]  50%</tspan></text>
+    <text class="progress-frame progress-21-6" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | AUT | </tspan><tspan class="loading">Loading [======----]  60%</tspan></text>
+    <text class="progress-frame progress-21-7" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | AUT | </tspan><tspan class="loading">Loading [=======---]  70%</tspan></text>
+    <text class="progress-frame progress-21-8" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | AUT | </tspan><tspan class="loading">Loading [========--]  80%</tspan></text>
+    <text class="progress-frame progress-21-9" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | AUT | </tspan><tspan class="loading">Loading [=========-]  90%</tspan></text>
+    <text class="progress-frame progress-21-10" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | AUT | </tspan><tspan class="success">Loading [==========] 100%</tspan></text>
+  </g>
+  <g class="log log-22" aria-hidden="true">
+    <text x="8" y="31" clip-path="url(#clip-22)" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | AUT | </tspan><tspan class="message">Automation rules ready</tspan></text>
+  </g>
+  <g class="log log-23" aria-hidden="true">
+    <text x="8" y="31" clip-path="url(#clip-23)" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | SEC | </tspan><tspan class="message">Checking access policies...</tspan></text>
+  </g>
+  <g class="log log-24" aria-hidden="true">
+    <text x="8" y="31" clip-path="url(#clip-24)" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | SEC | </tspan><tspan class="message">Access policies ready</tspan></text>
+  </g>
+  <g class="log log-25" aria-hidden="true">
+    <text x="8" y="31" clip-path="url(#clip-25)" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | API | </tspan><tspan class="message">Registering API routes...</tspan></text>
+  </g>
+  <g class="log log-26" aria-hidden="true">
+    <text x="8" y="31" clip-path="url(#clip-26)" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | API | </tspan><tspan class="message">API routes ready</tspan></text>
+  </g>
+  <g class="log log-27" aria-hidden="true">
+    <text x="8" y="31" clip-path="url(#clip-27)" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | SYS | </tspan><tspan class="message">Running health checks...</tspan></text>
+  </g>
+  <g class="log log-28" aria-hidden="true">
+    <text class="progress-frame progress-28-0" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | SYS | </tspan><tspan class="loading">Loading [----------]   0%</tspan></text>
+    <text class="progress-frame progress-28-1" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | SYS | </tspan><tspan class="loading">Loading [=---------]  10%</tspan></text>
+    <text class="progress-frame progress-28-2" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | SYS | </tspan><tspan class="loading">Loading [==--------]  20%</tspan></text>
+    <text class="progress-frame progress-28-3" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | SYS | </tspan><tspan class="loading">Loading [===-------]  30%</tspan></text>
+    <text class="progress-frame progress-28-4" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | SYS | </tspan><tspan class="loading">Loading [====------]  40%</tspan></text>
+    <text class="progress-frame progress-28-5" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | SYS | </tspan><tspan class="loading">Loading [=====-----]  50%</tspan></text>
+    <text class="progress-frame progress-28-6" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | SYS | </tspan><tspan class="loading">Loading [======----]  60%</tspan></text>
+    <text class="progress-frame progress-28-7" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | SYS | </tspan><tspan class="loading">Loading [=======---]  70%</tspan></text>
+    <text class="progress-frame progress-28-8" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | SYS | </tspan><tspan class="loading">Loading [========--]  80%</tspan></text>
+    <text class="progress-frame progress-28-9" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | SYS | </tspan><tspan class="loading">Loading [=========-]  90%</tspan></text>
+    <text class="progress-frame progress-28-10" x="8" y="31" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | SYS | </tspan><tspan class="success">Loading [==========] 100%</tspan></text>
+  </g>
+  <g class="log log-29" aria-hidden="true">
+    <text x="8" y="31" clip-path="url(#clip-29)" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | SYS | </tspan><tspan class="message">All systems ready</tspan></text>
+  </g>
+  <g class="log log-30 final" aria-hidden="true">
+    <text x="8" y="31" clip-path="url(#clip-30)" xml:space="preserve"><tspan class="prefix">| LOG | SYSTEM | RUN | </tspan><tspan class="running">System running...</tspan></text>
+  </g>
+</svg>
