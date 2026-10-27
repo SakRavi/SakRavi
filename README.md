@@ -73,24 +73,24 @@
 <!--     GITHUB STATS     -->
 <!-------------------------->
 
-<table align="center">
-  <tr>
-    <td width="50%" align="center" valign="middle">
-      <img
-        src="https://github-stats-extended.vercel.app/api?username=SakRavi&include_all_commits=true&theme=radical"
-        height="170"
-        alt="GitHub Stats"
-      />
-    </td>
-    <td width="50%" align="center" valign="middle">
-      <img
-        src="https://github-stats-extended.vercel.app/api/top-langs?username=SakRavi&langs_count=4&theme=radical"
-        height="170"
-        alt="Top Languages"
-      />
-    </td>
-  </tr>
-</table>
+
+<!-- GITHUB STATS -->
+
+<h3 align="center">GitHub Stats</h3>
+
+<p align="center">
+  <img
+    src="https://github-stats-extended.vercel.app/api?username=SakRavi&include_all_commits=true&theme=radical"
+    height="160"
+    alt="GitHub Stats"
+  />
+  <img
+    src="https://github-stats-extended.vercel.app/api/top-langs?username=SakRavi&langs_count=4&theme=radical"
+    height="160"
+    alt="Top Languages"
+  />
+</p>
+
 
 <!-- TECH STACK -->
 
