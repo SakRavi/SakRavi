@@ -6,11 +6,11 @@
 
 # Variables de entorno locales (conservar plantillas)
 .env
+.venv
 .env.*
 !.env.example
 !.env.sample
 !.env.template
-
 # Archivos del sistema y temporales del editor
 .DS_Store
 Thumbs.db

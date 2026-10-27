@@ -73,35 +73,21 @@
 <!--     GITHUB STATS     -->
 <!-------------------------->
 
+
 <table>
   <tr>
-    <td width="60%" align="left" valign="middle">
-      <picture>
-        <source media="(prefers-color-scheme: dark)"
-          srcset="https://github-readme-stats-fast.vercel.app/api?username=SakRavi&amp;show_icons=true&amp;title_color=FF2D95&amp;text_color=c9d1d9&amp;icon_color=00D9FF&amp;bg_color=00000000&amp;hide_border=true&amp;include_all_commits=true&amp;rank_icon=github" />
-        <source media="(prefers-color-scheme: light)"
-          srcset="https://github-readme-stats-fast.vercel.app/api?username=SakRavi&amp;show_icons=true&amp;title_color=9D4EDD&amp;text_color=24292f&amp;icon_color=FF2D95&amp;bg_color=00000000&amp;hide_border=true&amp;include_all_commits=true&amp;rank_icon=github" />
-        <img
-          src="https://github-readme-stats-fast.vercel.app/api?username=SakRavi&amp;show_icons=true&amp;title_color=FF2D95&amp;text_color=c9d1d9&amp;icon_color=00D9FF&amp;bg_color=00000000&amp;hide_border=true&amp;include_all_commits=true&amp;rank_icon=github"
-          width="100%"
-          alt="GitHub stats" />
-      </picture>
+    <td width="50%" align="left" valign="middle">
+      <img
+        src=https://github-stats-extended.vercel.app/api?username=SakRavi&include_all_commits=true&theme=radical
+          />
     </td>
-    <td width="40%" align="right" valign="middle">
-      <picture>
-        <source media="(prefers-color-scheme: dark)"
-          srcset="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=SakRavi&amp;title_color=FF2D95&amp;text_color=c9d1d9&amp;bg_color=00000000&amp;hide_border=true&amp;layout=compact&amp;langs_count=8" />
-        <source media="(prefers-color-scheme: light)"
-          srcset="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=SakRavi&amp;title_color=9D4EDD&amp;text_color=24292f&amp;bg_color=00000000&amp;hide_border=true&amp;layout=compact&amp;langs_count=8" />
-        <img
-          src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=SakRavi&amp;title_color=FF2D95&amp;text_color=c9d1d9&amp;bg_color=00000000&amp;hide_border=true&amp;layout=compact&amp;langs_count=8"
-          width="100%"
-          alt="Top languages" />
-      </picture>
+    <td width="50%" align="right" valign="middle">
+      <img
+         src=https://github-stats-extended.vercel.app/api/top-langs?username=SakRavi&langs_count=4&theme=radical
+    />
     </td>
   </tr>
 </table>
-
 <!-- TECH STACK -->
 
 <p align="center">
